@@ -13,7 +13,6 @@ server.use('/api/actions', Action)
 server.get('/', (req, res) => {
     res.send(`
       <h2>Lambda Sprint:)</h>
-      <p>... </p>
     `);
 });
 
