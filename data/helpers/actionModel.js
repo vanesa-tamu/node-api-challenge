@@ -6,7 +6,11 @@ module.exports = {
   insert,
   update,
   remove,
+  all
 };
+function all(){
+  return db('actions')
+}
 
 function get(id) {
   let query = db('actions');

@@ -37,16 +37,16 @@ Commit your code regularly and use descriptive messages. This helps both you (in
 ## Self-Study/Essay Questions
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
-
 - [ ] Mention two parts of Express that you learned about this week.
-
+    I learned that it makes routing easy, and how to structure multiple routes.
 - [ ] Describe Middleware?
-
+    Middleware is a checkpoint and are custom functions that "check" for specific things from the client.
 - [ ] Describe a Resource?
-
+    A resource can have multiple representations and is accessable via a unique url.
 - [ ] What can the API return to help clients know if a request was successful?
-
+    A status code (ex. 201, 200, ...)
 - [ ] How can we partition our application into sub-applications?
+    by using routes with specified paths that each route will use by default.
 
 ## Minimum Viable Product
 
